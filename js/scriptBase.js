@@ -7,7 +7,7 @@ var response = document.getElementById("response");
 
 function conf1(){
     if (response.value == "Shakespeare") {
-        window.location.href = "../lvls/a.html"
+        window.location.href = "html/lvls/a.html"
     }
     else{
         errormessage();
