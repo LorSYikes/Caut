@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+}
+
+.env{
+    position: absolute;
+    left: 10%;
+    margin-top: 60px;
+}
+
+.env input {
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 20px 5px;
+    background-color: black;
+    color: white;
+}
+
+.env .b-send {
+    background-color: black;
+    color: white;
+    padding: 20px 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.env .b-send:hover {
+    background-color: white;
+    color: black;
+}
+
+.env p {
+    width: 79px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 30%;
+    color: red;
+    background-color: rgb(83, 0, 0);
+    visibility: hidden;
+}
+
+.hidden{
+    color: black;
+}
